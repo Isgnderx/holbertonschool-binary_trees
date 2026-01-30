@@ -11,10 +11,10 @@
  * @left: Pointer to the left child
  * @right: Pointer to the right child
  */
-	typdef struct binary_tree_s{
+	typedef struct binary_tree_s{
 	
 	int data;
-	struct binary_tree_s parent;	
+	struct binary_tree_s *parent;	
 	struct binary_tree_s *left, 
 	struct binary_tree_s *right;
 	
